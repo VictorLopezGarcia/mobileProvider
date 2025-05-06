@@ -35,7 +35,10 @@ public class Catalogo {
                 Movil movil = new Movil(marca, modelo, caracteristicas, precio, stockCantidad);
                 if(Catalogo.class.getResource("/database/imagenes/" + modelo.toLowerCase().replace(" ", "") + ".png") != null) {
                     movil.setRutaImagen("/database/imagenes/" + modelo.toLowerCase().replace(" ", "")  + ".png");
-                } else movil.setRutaImagen("/database/imagenes/no_available.png");
+                }else if(Catalogo.class.getResource("/database/imagenes/" + modelo.toLowerCase().replace(" ", "") + ".jpg") != null) {
+                    movil.setRutaImagen("/database/imagenes/" + modelo.toLowerCase().replace(" ", "")  + ".jpg");
+                }
+                else movil.setRutaImagen("/database/imagenes/no_available.png");
                 stock.add(movil);
             }
         } catch (IOException e) {

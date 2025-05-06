@@ -42,6 +42,16 @@
     -fx-scale-y: 1.03; /* Escala en el eje Y */
 }
 
+.text-field {
+    -fx-background-color: #f8f9fa; /* Color de fondo del campo de texto */
+    -fx-border-color: #337ab7; /* Color del borde */
+    -fx-border-radius: 5; /* Radio para los bordes redondeados */
+    -fx-padding: 10px; /* Espaciado interno */
+    -fx-font-size: 14px; /* Tamaño de fuente */
+    -fx-text-fill: #333333; /* Color del texto */
+    -fx-cursor: text;
+}
+
 .dashboard-outline-button {
     -fx-background-color: transparent;
     -fx-text-fill: #337ab7; /* Azul primario */

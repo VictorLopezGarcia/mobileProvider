@@ -12,7 +12,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         Catalogo.instanciarBd();
-        FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("/views/login-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApp.class.getResource("/views/dashboard-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load()); // Ajusta las dimensiones
         scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/styles.css")).toExternalForm()); // Añade tu archivo CSS
         stage.setTitle("Catálogo de Móviles");

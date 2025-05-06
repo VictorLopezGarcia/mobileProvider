@@ -1,11 +1,11 @@
 module org.example.mobileprovider {
-    requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
-    requires javafx.base;
 
     requires org.kordamp.bootstrapfx.core;
+    requires org.controlsfx.controls;
     requires java.desktop;
+    requires jdk.compiler;
 
     opens mobileprovider to javafx.fxml;
     exports mobileprovider;
