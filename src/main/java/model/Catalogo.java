@@ -1,4 +1,4 @@
-package mobileprovider;
+package model;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -20,7 +20,7 @@ public class Catalogo {
     public static void instanciarBd() {
         stock.clear();
         try {
-            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/moviles.csv"), StandardCharsets.UTF_8);
+            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/smartphones_transformado.csv"), StandardCharsets.UTF_8);
             for (String linea : lineas.subList(1, lineas.size())) { // Omitir cabecera
                 String[] partes = linea.split(";");
                 if ((partes.length != numCaracteristicas+4)) {
@@ -98,7 +98,6 @@ public class Catalogo {
     * 
     */
     public static ArrayList<Movil> ListaMovilesModelo() {
-      
         return new ArrayList<>(stock);
     }
 

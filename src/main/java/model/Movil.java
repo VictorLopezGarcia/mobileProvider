@@ -1,5 +1,5 @@
 
-package mobileprovider;
+package model;
 import java.util.ArrayList;
 
 /** Clase padre del proyecto

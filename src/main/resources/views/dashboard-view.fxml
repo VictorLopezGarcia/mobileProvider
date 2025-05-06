@@ -7,30 +7,53 @@
 
 <?import org.controlsfx.control.GridView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Text?>
 <BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
     <left>
-        <VBox spacing="10.0" styleClass="sidebar" alignment="TOP_CENTER" prefWidth="200.0">
+        <VBox fx:id="sidebar"
+              spacing="10"
+              prefWidth="60"
+              styleClass="sidebar"
+              BorderPane.alignment="CENTER_LEFT">
             <padding>
-                <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                <Insets top="10" left="5" right="5" bottom="10"/>
             </padding>
-            <Button text="TODOS" onAction="#mostrarTodos" styleClass="dashboard-outline-button" maxWidth="Infinity" />
-            <Button text="FILTRAR MARCA SAMSUNG" onAction="#filtrarPorMarcaSamsung" styleClass="dashboard-outline-button" maxWidth="Infinity" />
-            <Button text="FILTRAR PRECIO" onAction="#filtrarPorPrecioMenor500" styleClass="dashboard-outline-button" maxWidth="Infinity" />
-            <VBox  maxWidth="Infinity" styleClass="dashboard-outline-button" >
-                <Label fx:id="icono"  />
-                <TextField fx:id="campoBusqueda" promptText="Buscar" styleClass="text-field" maxWidth="Infinity" />
 
-            </VBox>
+            <!-- Botón toggle sidebar -->
+            <Button text="" onAction="#toggleSidebar" styleClass="open-sidebar-button" alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
+                <graphic>
+                    <Text text="&#xe5d2;" styleClass="material-icons-sidebar"/>
+                </graphic>
+            </Button>
 
+            <Button text="" fx:id="btnInicio" onAction="#mostrarTodos" styleClass="sidebar-button">
+                <graphic>
+                    <Text text="&#xe88a;" styleClass="material-icons-sidebar"/>
+                </graphic>
+                <text>Inicio</text>
+            </Button>
+
+            <Button text="" fx:id="btnSamsung" onAction="#filtrarPorMarcaSamsung" styleClass="sidebar-button">
+                <graphic>
+                    <Text text="&#xe1bc;" styleClass="material-icons-sidebar"/>
+                </graphic>
+                <text>Samsung</text>
+            </Button>
+
+            <Button text="" fx:id="btnBarato" onAction="#filtrarPorPrecioMenor500" styleClass="sidebar-button">
+                <graphic>
+                    <Text text="&#xe227;" styleClass="material-icons-sidebar"/>
+                </graphic>
+                <text>Barato</text>
+            </Button>
         </VBox>
     </left>
+
     <center>
-        <GridView fx:id="catalogoGrid"  styleClass="catalogo-container" prefWidth="800">
-            <padding>
-                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-            </padding>
-        </GridView>
+        <VBox fx:id="header" styleClass="catalogo-container" spacing="10" prefWidth="900" prefHeight="-Infinity" alignment="TOP_CENTER">
+            <TextField fx:id="campoBusqueda" promptText="Buscar" styleClass="text-field" maxWidth="Infinity" />
+            <GridView fx:id="catalogoGrid"  VBox.vgrow="ALWAYS" />
+        </VBox>
     </center>
 </BorderPane>

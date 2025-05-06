@@ -1,4 +1,4 @@
-module org.example.mobileprovider {
+module org.example.model {
     requires javafx.fxml;
     requires javafx.graphics;
 
@@ -7,8 +7,8 @@ module org.example.mobileprovider {
     requires java.desktop;
     requires jdk.compiler;
 
-    opens mobileprovider to javafx.fxml;
-    exports mobileprovider;
+    opens model to javafx.fxml;
+    exports model;
     exports controller;
     opens controller to javafx.fxml;
 }

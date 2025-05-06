@@ -1,4 +1,4 @@
-package mobileprovider;
+package model;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

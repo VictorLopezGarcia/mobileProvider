@@ -1,16 +1,14 @@
 package controller;
 
-import com.sun.tools.javac.Main;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
-import mobileprovider.Movil;
+import model.Movil;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -50,10 +48,6 @@ public class MovilCardController {
             modeloLabel.setText(movil.getMarca() + " " + movil.getModelo());
             if (!movil.getCaracteristicas().isEmpty()) {
                 spec1Label.setText(movil.getCaracteristicas().getFirst());
-                Text icon = new Text("\ue412"); // Código Unicode del icono
-                icon.getStyleClass().add("material-icons");
-                spec1Label.setGraphic(icon);
-                spec1Label.setContentDisplay(ContentDisplay.LEFT);
             } else {
                 spec1Label.setText("");
             }

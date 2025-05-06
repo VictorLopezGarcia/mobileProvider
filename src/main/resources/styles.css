@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+.color1 { -fx-fill: #0a6076 ; }
+.color2 { -fx-fill: #26788e ; }
+.color3 { -fx-fill: #438fa6 ; }
+.color4 { -fx-fill: #5fa7be ; }
+.color5 { -fx-fill: #7bbed6 ; }
+
 
 .material-icons {
     -fx-font-family: 'Material Symbols Outlined';
     -fx-font-size: 1em;
-    -fx-fill: #337ab7; /* Usar -fx-fill para Text */
+    -fx-fill: #0a6076; /* Usar -fx-fill para Text */
 }
 
 .movil-card {
-    -fx-background-color: rgba(255, 255, 255, 0.45); /* Color de fondo de la tarjeta */
+    -fx-background-color: white; /* Color de fondo de la tarjeta */
     -fx-background-radius: 10; /* Radio para los bordes redondeados */
-    -fx-border-color: #337ab7; /* Color del contorno */
+    -fx-border-color: #26788e; /* Color del contorno */
     -fx-border-width: 1; /* Ancho del contorno */
     -fx-border-radius: 10; /* Radio para los bordes del contorno (debe coincidir con el fondo) */
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 5); /* Efecto de sombra */
@@ -19,8 +27,13 @@
     -fx-transition: background-color 0.3s ease, text-fill 0.3s ease, border-color 0.3s ease, scale-x 0.3s ease, scale-y 0.3s ease; /* Transición suave */
 }
 
+.movil-card:hover {
+    -fx-scale-x: 1.03; /* Escala en el eje X */
+    -fx-scale-y: 1.03; /* Escala en el eje Y */
+}
+
 .nombre {
-    -fx-text-fill: #337ab7; /* Azul primario */
+    -fx-text-fill: #0a6076; /* Azul primario */
     -fx-font-size: 14px;
     -fx-font-family: "Arial"; /* Fuente de la tarjeta */
     -fx-font-weight: bold; /* Negrita */
@@ -32,20 +45,9 @@
     -fx-font-family: "Arial"; /* Fuente de la tarjeta */
     -fx-font-weight: bold; /* Normal */
     -fx-padding: 0 0 0 5; /* Espaciado interno */
-    -fx-text-overrun: ellipsis; /* Agregar puntos suspensivos si el texto es demasiado largo */
-    -fx-ellipsis-string: "..."; /* Texto de los puntos suspensivos */
-
-}
-
-.movil-card:hover {
-    -fx-scale-x: 1.03; /* Escala en el eje X */
-    -fx-scale-y: 1.03; /* Escala en el eje Y */
 }
 
 .text-field {
-    -fx-background-color: #f8f9fa; /* Color de fondo del campo de texto */
-    -fx-border-color: #337ab7; /* Color del borde */
-    -fx-border-radius: 5; /* Radio para los bordes redondeados */
     -fx-padding: 10px; /* Espaciado interno */
     -fx-font-size: 14px; /* Tamaño de fuente */
     -fx-text-fill: #333333; /* Color del texto */
@@ -54,12 +56,12 @@
 
 .dashboard-outline-button {
     -fx-background-color: transparent;
-    -fx-text-fill: #337ab7; /* Azul primario */
+    -fx-text-fill: #26788e; /* Azul primario */
     -fx-font-size: 14px;
     -fx-padding: 10px 20px;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
-    -fx-border-color: #337ab7;
+    -fx-border-color: #26788e;
     -fx-border-width: 1px;
     -fx-cursor: hand;
     -fx-transition: background-color 0.3s ease, text-fill 0.3s ease, border-color 0.3s ease;
@@ -68,25 +70,78 @@
 .dashboard-outline-button:hover {
     -fx-background-color: #337ab7;
     -fx-text-fill: white;
-    -fx-border-color: #286090;
+    -fx-border-color: #26788e;
 }
 
 .dashboard-outline-button:pressed {
     -fx-background-color: #286090;
     -fx-text-fill: white;
-    -fx-border-color: #1e4970;
-}
-
-.dashboard-outline-button:disabled {
-    -fx-background-color: transparent;
-    -fx-text-fill: #999999; /* Color gris para el texto */
-    -fx-border-color: #999999; /* Color gris para el borde */
-    -fx-cursor: default; /* Cambia el cursor a predeterminado */
+    -fx-border-color: #26788e;
 }
 
 .catalogo-container {
-    -fx-background-color: #f8f9fa; /* Color de fondo del contenedor */
+    -fx-background-color: white; /* Color de fondo del contenedor */
     -fx-padding: 20px; /* Espaciado interno */
     -fx-spacing: 10px; /* Espaciado entre elementos */
     -fx-alignment: center; /* Alineación centrada */
+}
+
+
+.sidebar {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-graphic-text-gap: 10;
+    -fx-pref-height: 40px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-width: infinity;
+    -fx-cursor: hand;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: rgba(52, 82, 94, 0.37);
+    -fx-text-fill: white;
+}
+
+.sidebar-button:pressed {
+    -fx-background-color: #455a64;
+    -fx-text-fill: white;
+}
+
+
+.open-sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_RIGHT;
+    -fx-graphic-text-gap: 10;
+    -fx-padding: 10px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.open-sidebar-button:hover {
+    -fx-background-color: rgba(52, 82, 94, 0.37);
+    -fx-text-fill: white;
+}
+
+.open-sidebar-button:pressed {
+    -fx-background-color: #455a64;
+    -fx-text-fill: white;
+}
+
+
+.material-icons-sidebar {
+    -fx-font-family: 'Material Symbols Rounded';
+    -fx-font-size: 1.5em;
+    -fx-fill: white; /* Usar -fx-fill para Text */
 }
