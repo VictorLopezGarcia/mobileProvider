@@ -26,6 +26,16 @@
                 <Text text="&#xe412;" styleClass="material-icons"/>
             </graphic>
         </Label>
+        <Label fx:id="spec3Label" text="Especificación 2: Valor 2" styleClass="small-text">
+            <graphic>
+                <Text fx:id="color" text="&#xe836;" styleClass="material-icons-color"/>
+            </graphic>
+        </Label>
+        <Label fx:id="spec4Label" text="Especificación 2: Valor 2" styleClass="small-text">
+            <graphic>
+                <Text  text="&#xe40a;" styleClass="material-icons" />
+            </graphic>
+        </Label>
         <Label fx:id="precioLabel" text="Precio: 999€" styleClass="small-text" />
     </VBox>
 

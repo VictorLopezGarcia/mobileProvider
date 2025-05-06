@@ -7,11 +7,14 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import model.Movil;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+
+import static javafx.scene.paint.Color.BLACK;
 
 public class MovilCardController {
 
@@ -31,7 +34,16 @@ public class MovilCardController {
     private Label spec2Label;
 
     @FXML
+    private Label spec3Label;
+
+    @FXML
+    private Label spec4Label;
+
+    @FXML
     private Label precioLabel;
+
+    @FXML
+    private Text color;
 
     private Movil movil;
 
@@ -56,6 +68,23 @@ public class MovilCardController {
             } else {
                 spec2Label.setText("");
             }
+            if (movil.getCaracteristicas().size() > 2) {
+                spec3Label.setText(movil.getCaracteristicas().get(2));
+                try {
+                    color.setFill(Color.web(movil.getCaracteristicas().get(2).substring(movil.getCaracteristicas().get(2).indexOf(":") + 1).trim().toLowerCase()));
+                } catch (IllegalArgumentException e) {
+                    color.setFill(BLACK);
+                }
+
+            } else {
+                spec3Label.setText("");
+            }
+            if (movil.getCaracteristicas().size() > 3) {
+                spec4Label.setText(movil.getCaracteristicas().get(3));
+            } else {
+                spec4Label.setText("");
+            }
+
             precioLabel.setText("Precio: " + String.format("%.2f€", movil.getPrecio()));
 
 

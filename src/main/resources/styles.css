@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
+
 .color1 { -fx-fill: #0a6076 ; }
 .color2 { -fx-fill: #26788e ; }
 .color3 { -fx-fill: #438fa6 ; }
@@ -11,7 +12,15 @@
 .material-icons {
     -fx-font-family: 'Material Symbols Outlined';
     -fx-font-size: 1em;
-    -fx-fill: #0a6076; /* Usar -fx-fill para Text */
+    -fx-fill: #0a6076;
+}
+
+.material-icons-color {
+    -fx-font-family: 'Material Symbols Outlined';
+    -fx-font-size: 1em;
+    -fx-border-radius: 1px;
+    -fx-background-radius: 1px;
+    -fx-background-color: black;
 }
 
 .movil-card {
