@@ -1,7 +1,9 @@
 package controller;
 
+import com.sun.tools.javac.Main;
 import javafx.concurrent.Task;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.ContentDisplay;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
@@ -20,9 +22,6 @@ public class MovilCardController {
 
     @FXML
     private ImageView imageView;
-
-    @FXML
-    private Label icono;
 
     @FXML
     private Label modeloLabel;
@@ -60,10 +59,6 @@ public class MovilCardController {
             }
             if (movil.getCaracteristicas().size() > 1) {
                 spec2Label.setText(movil.getCaracteristicas().get(1));
-                Text icon = new Text("\ue8b6"); // Código Unicode del icono
-                icon.getStyleClass().add("material-icons");
-                icono.setGraphic(icon);
-
             } else {
                 spec2Label.setText("");
             }
