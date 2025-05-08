@@ -1,4 +1,4 @@
-Marca;Modelo;Precio;Stock;Caracteristicas
+Marca;Modelo;Precio;Stock;RAM;ROM;Color;Sistema
 Realme;C55;231,6;84;RAM: 8.0;ROM: 256.0;Color: Yellow;Sistema: Android
 Samsung;Galaxy M23;279,0;40;RAM: 4.0;ROM: 128.0;Color: Blue;Sistema: Android
 Motorola;Moto G13;179,01;19;RAM: 4.0;ROM: 128.0;Color: Blue;Sistema: Android

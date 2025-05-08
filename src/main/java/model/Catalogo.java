@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.*;
 import java.util.stream.Collectors;
-/** 
+/**
  * Clase fachada
  */
 public class Catalogo {
@@ -20,23 +20,30 @@ public class Catalogo {
     public static void instanciarBd() {
         stock.clear();
         try {
-            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/smartphones_transformado.csv"), StandardCharsets.UTF_8);
+            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv"), StandardCharsets.UTF_8);
             for (String linea : lineas.subList(1, lineas.size())) { // Omitir cabecera
-                String[] partes = linea.split(";");
-                if ((partes.length != numCaracteristicas+4)) {
-                   break;
-                }
+                String[] partes = linea.split(",");
 
                 String marca = partes[0].trim();
                 String modelo = partes[1].trim();
-                double precio = Double.parseDouble(partes[2].trim().replace(',', '.'));
-                int stockCantidad = Integer.parseInt(partes[3].trim());
-                ArrayList<String> caracteristicas = new ArrayList<>(Arrays.asList(partes).subList(4, partes.length));
+                String peso = partes[2].trim();
+                String RAM = partes[3].trim();
+                String FrontCamera = partes[4].trim();
+                String BackCamera = partes[5].trim();
+                String procesador = partes[6].trim();
+                String bateria = partes[7].trim();
+                String pantalla = partes[8].trim();
+                double precio = Double.parseDouble(partes[9].trim().replace(',', '.'));
+                String fechaLanzamiento = partes[10].trim();
+                String Almacenamiento = partes[11].trim();
+                String[] caracteristicasArray = {peso, RAM, FrontCamera, BackCamera, procesador, bateria, pantalla, fechaLanzamiento, Almacenamiento};
+                ArrayList<String> caracteristicas = new ArrayList<>(Arrays.asList(caracteristicasArray));
+                int stockCantidad = new Random().nextInt(10) + 1; // Generar un stock aleatorio entre 1 y 10
                 Movil movil = new Movil(marca, modelo, caracteristicas, precio, stockCantidad);
-                if(Catalogo.class.getResource("/database/imagenes/" + modelo.toLowerCase().replace(" ", "") + ".png") != null) {
-                    movil.setRutaImagen("/database/imagenes/" + modelo.toLowerCase().replace(" ", "")  + ".png");
-                }else if(Catalogo.class.getResource("/database/imagenes/" + modelo.toLowerCase().replace(" ", "") + ".jpg") != null) {
-                    movil.setRutaImagen("/database/imagenes/" + modelo.toLowerCase().replace(" ", "")  + ".jpg");
+                if(Catalogo.class.getResource("/database/imagenes/" +marca+ "_" + modelo.replace(" ", "_") + ".png") != null) {
+                    movil.setRutaImagen("/database/imagenes/" + marca+ "_" + modelo.replace(" ", "_")   + ".png");
+                }else if(Catalogo.class.getResource("/database/imagenes/" + marca+ "_" + modelo.replace(" ", "_")  + ".jpg") != null) {
+                    movil.setRutaImagen("/database/imagenes/" + marca+ "_" + modelo.replace(" ", "_")   + ".jpg");
                 }
                 else movil.setRutaImagen("/database/imagenes/no_available.png");
                 stock.add(movil);
