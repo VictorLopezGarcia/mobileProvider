@@ -22,7 +22,15 @@ public class Catalogo {
         try {
             List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv"), StandardCharsets.UTF_8);
             for (String linea : lineas.subList(1, lineas.size())) { // Omitir cabecera
-                String[] partes = linea.split(",");
+                String[] partes = linea.split(";");
+
+                if (partes.length < 12) {
+                    System.err.println("Error: línea con formato incorrecto: " + linea);
+                    break;
+                } else if (partes.length > 12) {
+                    System.err.println("Error: línea con más de 12 campos: " + linea);
+                    continue;
+                }
 
                 String marca = partes[0].trim();
                 String modelo = partes[1].trim();
@@ -33,7 +41,7 @@ public class Catalogo {
                 String procesador = partes[6].trim();
                 String bateria = partes[7].trim();
                 String pantalla = partes[8].trim();
-                double precio = Double.parseDouble(partes[9].trim().replace(',', '.'));
+                double precio = Double.parseDouble(partes[9].trim().replace("USD", "").trim().replace(',', '.'));
                 String fechaLanzamiento = partes[10].trim();
                 String Almacenamiento = partes[11].trim();
                 String[] caracteristicasArray = {peso, RAM, FrontCamera, BackCamera, procesador, bateria, pantalla, fechaLanzamiento, Almacenamiento};

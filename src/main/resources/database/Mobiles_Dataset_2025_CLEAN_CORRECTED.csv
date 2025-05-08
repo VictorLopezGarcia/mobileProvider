@@ -94,6 +94,8 @@ Apple;iPad Pro 12.9-inch;682g;6GB;7MP;12MP + 10MP;A12Z Bionic;9720mAh;12.9 inche
 Apple;iPad Pro 13-inch;708g;6GB;7MP;12MP + 10MP;A12Z Bionic;10307mAh;13 inches;USD 1099;2020;128GB
 Apple;iPad Pro 13-inch;708g;6GB;7MP;12MP + 10MP;A12Z Bionic;10307mAh;13 inches;USD 1199;2020;256GB
 Apple;iPad Pro 13-inch;708g;6GB;7MP;12MP + 10MP;A12Z Bionic;10307mAh;13 inches;USD 1399;2020;512GB
+Apple;iPad Pro 13-inch 1TB;708g;6GB;7MP;12MP + 10MP;A12Z Bionic;10307mAh;13 inches;USD 1599;2020
+Apple;iPad Pro 13-inch 2TB;708g;6GB;7MP;12MP + 10MP;A12Z Bionic;10307mAh;13 inches;USD 1799;2020
 Samsung;Galaxy S24 Ultra;234g;12GB;12MP;200MP + 12MP;Exynos 2400;5000mAh;6.8 inches;USD 1199;2024;128GB
 Samsung;Galaxy S24 Ultra;234g;12GB;12MP;200MP + 12MP;Exynos 2400;5000mAh;6.8 inches;USD 1299;2024;256GB
 Samsung;Galaxy S24+;196g;8GB;12MP;50MP + 12MP;Exynos 2400;4800mAh;6.6 inches;USD 899;2024;128GB
@@ -179,59 +181,59 @@ Samsung;Galaxy Tab Active 4 Pro;674g;6GB;8MP;13MP;Snapdragon 778G;7600mAh;10.1 i
 Samsung;Galaxy Tab Active 3;426g;4GB;5MP;13MP;Exynos 9810;5050mAh;8 inches;USD 499;2020;64GB
 Samsung;Galaxy Tab E 10.1;490g;1.5GB;2MP;5MP;Spreadtrum SC8830;5000mAh;10.1 inches;USD 129;2016;16GB
 Samsung;Galaxy Tab E 8.0;360g;1.5GB;2MP;5MP;Qualcomm MSM8916;5000mAh;8 inches;USD 99;2016;16GB
-OnePlus;12;205g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 3;5000mAh;6.7 inches;USD 799;2024;256GB
-OnePlus;12R;203g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;4500mAh;6.7 inches;USD 699;2024;256GB
-OnePlus;11;205g;12GB;16MP;50MP + 48MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 699;2023;256GB
-OnePlus;11R;202g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 599;2023;256GB
-OnePlus;Nord 3;190g;12GB;16MP;50MP + 8MP;MediaTek Dimensity 9000;5000mAh;6.74 inches;USD 499;2023;256GB
-OnePlus;Nord CE 3;179g;8GB;16MP;50MP + 2MP;Snapdragon 782G;5000mAh;6.72 inches;USD 399;2023;128GB
-OnePlus;Nord CE 3 Lite;195g;8GB;16MP;108MP;Snapdragon 695;5000mAh;6.72 inches;USD 299;2023;128GB
-OnePlus;Nord N30 5G;192g;8GB;16MP;64MP + 2MP;MediaTek Dimensity 6020;5000mAh;6.72 inches;USD 249;2023;128GB
-OnePlus;Open;238g;16GB;32MP;48MP + 48MP;Snapdragon 8 Gen 2;4800mAh;7.8 inches;USD 1099;2024;256GB
-OnePlus;10 Pro;200g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 899;2022;256GB
-OnePlus;10T;203g;12GB;16MP;50MP + 8MP;Snapdragon 8+ Gen 1;4500mAh;6.7 inches;USD 749;2022;256GB
-OnePlus;9 Pro;192g;12GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.7 inches;USD 699;2021;256GB
-OnePlus;9;183g;8GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.55 inches;USD 599;2021;128GB
-OnePlus;11 Pro;204g;16GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 899;2023;256GB
-OnePlus;Nord 2T;190g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1300;4500mAh;6.43 inches;USD 399;2022;128GB
-OnePlus;Nord 2;190g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1200-AI;4500mAh;6.43 inches;USD 349;2021;128GB
-OnePlus;Nord N200;189g;4GB;16MP;13MP + 2MP;Snapdragon 480;5000mAh;6.49 inches;USD 199;2021;64GB
-OnePlus;Nord N100;185g;4GB;8MP;13MP + 2MP;Qualcomm Snapdragon 460;5000mAh;6.52 inches;USD 179;2020;64GB
-OnePlus;8T Cyberpunk 2077 Edition;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 749;2020;256GB
-OnePlus;9T;192g;8GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.55 inches;USD 649;2021;128GB
-OnePlus;8T;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 599;2020;256GB
-OnePlus;10T 5G;203g;12GB;16MP;50MP + 8MP;Snapdragon 8+ Gen 1;4500mAh;6.7 inches;USD 749;2022;256GB
-OnePlus;9R 5G;189g;8GB;16MP;48MP + 5MP;Snapdragon 870;4500mAh;6.55 inches;USD 599;2021;128GB
-OnePlus;8 Pro;199g;12GB;16MP;48MP + 48MP;Snapdragon 865;4510mAh;6.78 inches;USD 749;2020;256GB
-OnePlus;8;180g;8GB;16MP;48MP + 16MP;Snapdragon 865;4300mAh;6.55 inches;USD 699;2020;128GB
-OnePlus;Nord CE 2 Lite;195g;6GB;16MP;64MP + 2MP;MediaTek Dimensity 900;5000mAh;6.59 inches;USD 249;2022;128GB
-OnePlus;Nord CE 2;173g;8GB;16MP;64MP + 8MP;MediaTek Dimensity 1200;4500mAh;6.43 inches;USD 299;2022;128GB
-OnePlus;Nord 1;184g;6GB;16MP;48MP + 5MP;Snapdragon 765G;4115mAh;6.44 inches;USD 349;2020;128GB
-OnePlus;Nord CE 5G;170g;6GB;16MP;64MP + 8MP;Snapdragon 750G;4500mAh;6.43 inches;USD 299;2021;128GB
-OnePlus;Nord 2 5G;189g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1200-AI;4500mAh;6.43 inches;USD 399;2021;128GB
-OnePlus;Nord N100 5G;185g;4GB;8MP;13MP + 2MP;Qualcomm Snapdragon 460;5000mAh;6.52 inches;USD 179;2020;64GB
-OnePlus;Nord N10 5G;190g;6GB;16MP;64MP + 8MP;Qualcomm Snapdragon 690;4300mAh;6.49 inches;USD 299;2020;128GB
-OnePlus;8R;192g;8GB;16MP;48MP + 5MP;Snapdragon 865;4300mAh;6.55 inches;USD 649;2020;128GB
-OnePlus;7R;190g;6GB;16MP;48MP + 5MP;Snapdragon 855;3700mAh;6.41 inches;USD 599;2020;128GB
-OnePlus;6T McLaren Edition;185g;10GB;16MP;20MP + 16MP;Snapdragon 845;3700mAh;6.41 inches;USD 799;2018;256GB
-OnePlus;5T Star Wars Edition;162g;6GB;16MP;16MP + 20MP;Snapdragon 835;3300mAh;6.01 inches;USD 649;2017;128GB
-OnePlus;13R;210g;8GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;4500mAh;6.7 inches;USD 849;2023;128GB
-OnePlus;11T;202g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 799;2023;128GB
-OnePlus;10R;205g;8GB;16MP;50MP + 16MP;MediaTek Dimensity 8100;4500mAh;6.7 inches;USD 599;2022;128GB
-OnePlus;7 Pro 5G;206g;12GB;16MP;48MP + 8MP;Snapdragon 855;4000mAh;6.67 inches;USD 799;2019;256GB
-OnePlus;6 Special Edition;177g;6GB;16MP;20MP + 16MP;Snapdragon 845;3300mAh;6.28 inches;USD 599;2018;128GB
-OnePlus;5 Special Edition;155g;8GB;16MP;20MP + 16MP;Snapdragon 835;3300mAh;5.5 inches;USD 599;2017;128GB
-OnePlus;Nord X;190g;8GB;32MP;64MP + 8MP;Snapdragon 765G;4000mAh;6.44 inches;USD 299;2020;128GB
-OnePlus;8 Pro McLaren Edition;199g;12GB;16MP;48MP + 8MP;Snapdragon 865;4510mAh;6.78 inches;USD 899;2020;256GB
-OnePlus;8T Cyberpunk Edition;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 799;2020;256GB
-OnePlus;7T Pro 5G McLaren Edition;206g;12GB;16MP;48MP + 8MP;Snapdragon 855;4085mAh;6.67 inches;USD 899;2019;256GB
-OnePlus;15R;210g;12GB;32MP;50MP + 8MP;Snapdragon 8 Gen 3;5000mAh;6.7 inches;USD 849;2023;128GB
-OnePlus;14+;202g;8GB;16MP;64MP + 8MP;Snapdragon 8 Gen 2;4800mAh;6.55 inches;USD 799;2023;128GB
-OnePlus;13 Pro;215g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 899;2023;256GB
-OnePlus;12T 5G;200g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 849;2023;256GB
-OnePlus;Pad;550g;8GB;8MP;13MP;MediaTek Dimensity 9000;9510mAh;11.61 inches;USD 499;2023;256GB
-OnePlus;Pad 2;550g;8GB;8MP;13MP;MediaTek Dimensity 9000;9510mAh;11.61 inches;USD 549;2024;256GB
-OnePlus;Pad Pro;610g;12GB;16MP;50MP;Snapdragon 8 Gen 3;11000mAh;12.4 inches;USD 799;2024;256GB
+OnePlus;OnePlus 12;205g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 3;5000mAh;6.7 inches;USD 799;2024;256GB
+OnePlus;OnePlus 12R;203g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;4500mAh;6.7 inches;USD 699;2024;256GB
+OnePlus;OnePlus 11;205g;12GB;16MP;50MP + 48MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 699;2023;256GB
+OnePlus;OnePlus 11R;202g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 599;2023;256GB
+OnePlus;OnePlus Nord 3;190g;12GB;16MP;50MP + 8MP;MediaTek Dimensity 9000;5000mAh;6.74 inches;USD 499;2023;256GB
+OnePlus;OnePlus Nord CE 3;179g;8GB;16MP;50MP + 2MP;Snapdragon 782G;5000mAh;6.72 inches;USD 399;2023;128GB
+OnePlus;OnePlus Nord CE 3 Lite;195g;8GB;16MP;108MP;Snapdragon 695;5000mAh;6.72 inches;USD 299;2023;128GB
+OnePlus;OnePlus Nord N30 5G;192g;8GB;16MP;64MP + 2MP;MediaTek Dimensity 6020;5000mAh;6.72 inches;USD 249;2023;128GB
+OnePlus;OnePlus Open;238g;16GB;32MP;48MP + 48MP;Snapdragon 8 Gen 2;4800mAh;7.8 inches;USD 1099;2024;256GB
+OnePlus;OnePlus 10 Pro;200g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 1;5000mAh;6.7 inches;USD 899;2022;256GB
+OnePlus;OnePlus 10T;203g;12GB;16MP;50MP + 8MP;Snapdragon 8+ Gen 1;4500mAh;6.7 inches;USD 749;2022;256GB
+OnePlus;OnePlus 9 Pro;192g;12GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.7 inches;USD 699;2021;256GB
+OnePlus;OnePlus 9;183g;8GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.55 inches;USD 599;2021;128GB
+OnePlus;OnePlus 11 Pro;204g;16GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 899;2023;256GB
+OnePlus;OnePlus Nord 2T;190g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1300;4500mAh;6.43 inches;USD 399;2022;128GB
+OnePlus;OnePlus Nord 2;190g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1200-AI;4500mAh;6.43 inches;USD 349;2021;128GB
+OnePlus;OnePlus Nord N200;189g;4GB;16MP;13MP + 2MP;Snapdragon 480;5000mAh;6.49 inches;USD 199;2021;64GB
+OnePlus;OnePlus Nord N100;185g;4GB;8MP;13MP + 2MP;Qualcomm Snapdragon 460;5000mAh;6.52 inches;USD 179;2020;64GB
+OnePlus;OnePlus 8T Cyberpunk 2077 Edition;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 749;2020;256GB
+OnePlus;OnePlus 9T;192g;8GB;16MP;48MP + 50MP;Snapdragon 888;4500mAh;6.55 inches;USD 649;2021;128GB
+OnePlus;OnePlus 8T;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 599;2020;256GB
+OnePlus;OnePlus 10T 5G;203g;12GB;16MP;50MP + 8MP;Snapdragon 8+ Gen 1;4500mAh;6.7 inches;USD 749;2022;256GB
+OnePlus;OnePlus 9R 5G;189g;8GB;16MP;48MP + 5MP;Snapdragon 870;4500mAh;6.55 inches;USD 599;2021;128GB
+OnePlus;OnePlus 8 Pro;199g;12GB;16MP;48MP + 48MP;Snapdragon 865;4510mAh;6.78 inches;USD 749;2020;256GB
+OnePlus;OnePlus 8;180g;8GB;16MP;48MP + 16MP;Snapdragon 865;4300mAh;6.55 inches;USD 699;2020;128GB
+OnePlus;OnePlus Nord CE 2 Lite;195g;6GB;16MP;64MP + 2MP;MediaTek Dimensity 900;5000mAh;6.59 inches;USD 249;2022;128GB
+OnePlus;OnePlus Nord CE 2;173g;8GB;16MP;64MP + 8MP;MediaTek Dimensity 1200;4500mAh;6.43 inches;USD 299;2022;128GB
+OnePlus;OnePlus Nord 1;184g;6GB;16MP;48MP + 5MP;Snapdragon 765G;4115mAh;6.44 inches;USD 349;2020;128GB
+OnePlus;OnePlus Nord CE 5G;170g;6GB;16MP;64MP + 8MP;Snapdragon 750G;4500mAh;6.43 inches;USD 299;2021;128GB
+OnePlus;OnePlus Nord 2 5G;189g;8GB;32MP;50MP + 8MP;MediaTek Dimensity 1200-AI;4500mAh;6.43 inches;USD 399;2021;128GB
+OnePlus;OnePlus Nord N100 5G;185g;4GB;8MP;13MP + 2MP;Qualcomm Snapdragon 460;5000mAh;6.52 inches;USD 179;2020;64GB
+OnePlus;OnePlus Nord N10 5G;190g;6GB;16MP;64MP + 8MP;Qualcomm Snapdragon 690;4300mAh;6.49 inches;USD 299;2020;128GB
+OnePlus;OnePlus 8R;192g;8GB;16MP;48MP + 5MP;Snapdragon 865;4300mAh;6.55 inches;USD 649;2020;128GB
+OnePlus;OnePlus 7R;190g;6GB;16MP;48MP + 5MP;Snapdragon 855;3700mAh;6.41 inches;USD 599;2020;128GB
+OnePlus;OnePlus 6T McLaren Edition;185g;10GB;16MP;20MP + 16MP;Snapdragon 845;3700mAh;6.41 inches;USD 799;2018;256GB
+OnePlus;OnePlus 5T Star Wars Edition;162g;6GB;16MP;16MP + 20MP;Snapdragon 835;3300mAh;6.01 inches;USD 649;2017;128GB
+OnePlus;OnePlus 13R;210g;8GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;4500mAh;6.7 inches;USD 849;2023;128GB
+OnePlus;OnePlus 11T;202g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 799;2023;128GB
+OnePlus;OnePlus 10R;205g;8GB;16MP;50MP + 16MP;MediaTek Dimensity 8100;4500mAh;6.7 inches;USD 599;2022;128GB
+OnePlus;OnePlus 7 Pro 5G;206g;12GB;16MP;48MP + 8MP;Snapdragon 855;4000mAh;6.67 inches;USD 799;2019;256GB
+OnePlus;OnePlus 6 Special Edition;177g;6GB;16MP;20MP + 16MP;Snapdragon 845;3300mAh;6.28 inches;USD 599;2018;128GB
+OnePlus;OnePlus 5 Special Edition;155g;8GB;16MP;20MP + 16MP;Snapdragon 835;3300mAh;5.5 inches;USD 599;2017;128GB
+OnePlus;OnePlus Nord X;190g;8GB;32MP;64MP + 8MP;Snapdragon 765G;4000mAh;6.44 inches;USD 299;2020;128GB
+OnePlus;OnePlus 8 Pro McLaren Edition;199g;12GB;16MP;48MP + 8MP;Snapdragon 865;4510mAh;6.78 inches;USD 899;2020;256GB
+OnePlus;OnePlus 8T Cyberpunk Edition;188g;12GB;16MP;48MP + 16MP;Snapdragon 865;4500mAh;6.55 inches;USD 799;2020;256GB
+OnePlus;OnePlus 7T Pro 5G McLaren Edition;206g;12GB;16MP;48MP + 8MP;Snapdragon 855;4085mAh;6.67 inches;USD 899;2019;256GB
+OnePlus;OnePlus 15R;210g;12GB;32MP;50MP + 8MP;Snapdragon 8 Gen 3;5000mAh;6.7 inches;USD 849;2023;128GB
+OnePlus;OnePlus 14+;202g;8GB;16MP;64MP + 8MP;Snapdragon 8 Gen 2;4800mAh;6.55 inches;USD 799;2023;128GB
+OnePlus;OnePlus 13 Pro;215g;12GB;32MP;50MP + 48MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 899;2023;256GB
+OnePlus;OnePlus 12T 5G;200g;12GB;16MP;50MP + 8MP;Snapdragon 8 Gen 2;5000mAh;6.7 inches;USD 849;2023;256GB
+OnePlus;OnePlus Pad;550g;8GB;8MP;13MP;MediaTek Dimensity 9000;9510mAh;11.61 inches;USD 499;2023
+OnePlus;OnePlus Pad 2;550g;8GB;8MP;13MP;MediaTek Dimensity 9000;9510mAh;11.61 inches;USD 549;2024
+OnePlus;OnePlus Pad Pro;610g;12GB;16MP;50MP;Snapdragon 8 Gen 3;11000mAh;12.4 inches;USD 799;2024
 Vivo;X200;223g;12GB;32MP;50MP;Dimensity 9400;6000mAh;6.78 inches;USD 999;2024;128GB
 Vivo;X200;223g;12GB;32MP;50MP;Dimensity 9400;6000mAh;6.78 inches;USD 1099;2024;256GB
 Vivo;X200 Pro;223g;16GB;32MP;200MP;Dimensity 9400;6000mAh;6.78 inches;USD 1199;2024;256GB
@@ -521,12 +523,12 @@ Realme;TechLife Pad Neo;465g;4GB;8MP;8MP;MediaTek Helio G85;7200mAh;10.5 inches;
 Realme;TechLife Pad Neo;465g;6GB;8MP;8MP;MediaTek Helio G85;7200mAh;10.5 inches;USD 230;2024;128GB
 Xiaomi;Xiaomi 15 Pro;210g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Snapdragon 8 Elite;6100mAh;6.73 inches;USD 799;2024;256GB
 Xiaomi;Xiaomi 15 Pro;210g;16GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Snapdragon 8 Elite;6100mAh;6.73 inches;USD 899;2024;512GB
-Xiaomi;Xiaomi 15 Pro;210g;16GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Snapdragon 8 Elite;6100mAh;6.73 inches;USD 999;2024;1TB
+Xiaomi;Xiaomi 15 Pro 1TB;210g;16GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Snapdragon 8 Elite;6100mAh;6.73 inches;USD 999;2024
 Xiaomi;Xiaomi 15;190g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide);Snapdragon 8 Elite;5400mAh;6.36 inches;USD 699;2024;256GB
 Xiaomi;Xiaomi 15;190g;16GB;32MP;50MP (Main) + 50MP (Ultra-wide);Snapdragon 8 Elite;5400mAh;6.36 inches;USD 799;2024;512GB
 Xiaomi;Xiaomi 14T Pro;209g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Dimensity 9300+;5000mAh;6.67 inches;USD 634.99;2024;256GB
 Xiaomi;Xiaomi 14T Pro;209g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Dimensity 9300+;5000mAh;6.67 inches;USD 790.77;2024;512GB
-Xiaomi;Xiaomi 14T Pro;209g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Dimensity 9300+;5000mAh;6.67 inches;USD 899;2024;1TB
+Xiaomi;Xiaomi 14T Pro 1TB;209g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Dimensity 9300+;5000mAh;6.67 inches;USD 899;2024
 Xiaomi;Xiaomi 14T;195g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide);Dimensity 8300-Ultra;5000mAh;6.67 inches;USD 599;2024;256GB
 Xiaomi;Xiaomi 14T;195g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide);Dimensity 8300-Ultra;5000mAh;6.67 inches;USD 699;2024;512GB
 Xiaomi;Xiaomi 14 Pro;206g;12GB;32MP;50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto);Snapdragon 8 Gen 3;5000mAh;6.73 inches;USD 799;2023;256GB
@@ -623,6 +625,40 @@ Motorola;Moto E32s;185g;3GB;8MP;16MP;MediaTek Helio G37;5000mAh;6.5 inches;USD 1
 Motorola;Moto E22i;169g;2GB;5MP;16MP;MediaTek Helio G37;4020mAh;6.5 inches;USD 179;2022;32GB
 Motorola;Moto E22;169g;4GB;5MP;16MP;MediaTek Helio G37;4020mAh;6.5 inches;USD 199;2022;64GB
 Motorola;Moto G22;185g;4GB;16MP;50MP;MediaTek Helio G37;5000mAh;6.5 inches;USD 249;2022;64GB
+Huawei;P50;181g;8GB;13MP;50MP;Snapdragon 888 4G;4100mAh;6.5 inches;USD 699;2021
+Huawei;P50 Pro;195g;8GB;13MP;50MP;Snapdragon 888 4G;4360mAh;6.6 inches;USD 899;2021
+Huawei;P50 Pocket;190g;8GB;10.7MP;40MP;Snapdragon 888 4G;4000mAh;6.9 inches (unfolded);USD 1299;2021
+Huawei;Mate 40E;188g;8GB;13MP;64MP;Kirin 990E 5G;4200mAh;6.5 inches;USD 799;2021
+Huawei;Mate X2;295g;8GB;16MP;50MP;Kirin 9000 5G;4500mAh;8.0 inches (unfolded);USD 2699;2021
+Huawei;Nova 9;175g;8GB;32MP;50MP;Snapdragon 778G 4G;4300mAh;6.57 inches;USD 499;2021
+Huawei;Nova 9 Pro;186g;8GB;Dual 32MP;50MP;Snapdragon 778G 4G;4000mAh;6.72 inches;USD 599;2021
+Huawei;P50E;181g;8GB;13MP;50MP;Snapdragon 778G 4G;4100mAh;6.5 inches;USD 649;2022
+Huawei;Mate Xs 2;255g;8GB;10.7MP;50MP;Snapdragon 888 4G;4600mAh;7.8 inches (unfolded);USD 2499;2022
+Huawei;Mate 50;202g;8GB;13MP;50MP;Snapdragon 8+ Gen 1 4G;4460mAh;6.7 inches;USD 999;2022
+Huawei;Mate 50 Pro;205g;8GB;13MP;50MP;Snapdragon 8+ Gen 1 4G;4700mAh;6.74 inches;USD 1199;2022
+Huawei;Nova 10;168g;8GB;60MP;50MP;Snapdragon 778G 4G;4000mAh;6.67 inches;USD 499;2022
+Huawei;Nova 10 Pro;191g;8GB;Dual 60MP;50MP;Snapdragon 778G 4G;4500mAh;6.78 inches;USD 599;2022
+Huawei;Nova 10 SE;184g;8GB;16MP;108MP;Snapdragon 680 4G;4500mAh;6.67 inches;USD 399;2022
+Huawei;P60;197g;8GB;13MP;48MP (wide) + 13MP (ultrawide) + 48MP (telephoto);Snapdragon 8+ Gen 1 4G;4815mAh;6.67 inches;USD 999;2023
+Huawei;P60 Pro;200g;8GB / 12GB;13MP;48MP (wide) + 13MP (ultrawide) + 48MP (telephoto);Snapdragon 8+ Gen 1 4G;4815mAh;6.67 inches;USD 1099;2023
+Huawei;P60 Art;206g;8GB / 12GB;13MP;48MP (wide) + 40MP (ultrawide) + 48MP (telephoto);Snapdragon 8+ Gen 1 4G;5100mAh;6.73 inches;USD 1299;2023
+Huawei;Mate X3;239g;12GB;8MP;50MP (wide) + 13MP (ultrawide) + 12MP (periscope telephoto);Snapdragon 8+ Gen 1 4G;4800mAh;7.85 inches (unfolded);USD 2499;2023
+Huawei;Mate 60;209g;12GB;13MP;50MP (wide) + 12MP (ultrawide) + 12MP (telephoto);Kirin 9000S;4750mAh;6.7 inches;USD 1099;2023
+Huawei;Mate 60 Pro;225g;12GB;13MP;50MP (wide) + 40MP (ultrawide) + 48MP (telephoto);Kirin 9000S;5000mAh;6.82 inches;USD 1299;2023
+Huawei;Mate 60 Pro+;235g;12GB;13MP;50MP (wide) + 48MP (ultrawide) + 48MP (telephoto);Kirin 9000S;5200mAh;6.82 inches;USD 1499;2023
+Huawei;Nova 11;168g;8GB;60MP;50MP (wide) + 8MP (ultrawide);Snapdragon 778G 4G;4500mAh;6.7 inches;USD 499;2023
+Huawei;Nova 11 Pro;188g;8GB;60MP (ultrawide) + 8MP (telephoto);50MP (wide) + 8MP (ultrawide);Snapdragon 778G 4G;4500mAh;6.78 inches;USD 599;2023
+Huawei;Nova 11 Ultra;188g;12GB;60MP (ultrawide) + 8MP (telephoto);50MP (wide) + 8MP (ultrawide);Snapdragon 778G 4G;4500mAh;6.78 inches;USD 699;2023
+Huawei;Pura 70;220g;12GB;13MP;50MP + 13MP + 12MP;Kirin 9010;4900mAh;6.8 inches;USD 999;2024
+Huawei;Pura 70 Pro;220g;12GB;13MP;50MP + 12.5MP + 48MP;Kirin 9010;5050mAh;6.8 inches;USD 1099;2024
+Huawei;Pura 70 Pro+;220g;12GB;13MP;50MP + 12.5MP + 48MP;Kirin 9010;5050mAh;6.8 inches;USD 1199;2024
+Huawei;Pura 70 Ultra;226g;16GB;13MP;50MP + 40MP + 50MP;Kirin 9010;5200mAh;6.8 inches;USD 1299;2024
+Huawei;Mate 70;220g;12GB;13MP;50MP + 12MP;Kirin 9010;4900mAh;6.7 inches;USD 899;2024
+Huawei;Mate 70 Pro;220g;12GB;13MP;50MP + 12MP + 40MP;Kirin 9010;5000mAh;6.8 inches;USD 999;2024
+Huawei;Mate 70 Pro+;220g;12GB;13MP;50MP + 12MP + 40MP;Kirin 9010;5000mAh;6.8 inches;USD 1099;2024
+Huawei;Mate X6;241g;12GB;8MP;50MP + 13MP + 12MP;Kirin 9010;4800mAh;7.93 inches;USD 2499;2024
+Huawei;Nova 12;168g;8GB;60MP;50MP + 8MP;Kirin 9000S;4500mAh;6.7 inches;USD 499;2024
+Huawei;Nova 12 Pro;188g;8GB;60MP + 8MP;50MP + 8MP;Kirin 9000S;4500mAh;6.78 inches;USD 599;2024
 Huawei;Mate XT;245g;12GB;13MP;50MP + 12MP + 48MP;Kirin 9010;5000mAh;7.92 inches;USD 2599;2024;256GB
 Huawei;Mate XT;245g;12GB;13MP;50MP + 12MP + 48MP;Kirin 9010;5000mAh;7.92 inches;USD 2799;2024;512GB
 Huawei;Nova 13;170g;8GB;50MP;50MP + 8MP;Kirin 9000S;4600mAh;6.7 inches;USD 529;2024;256GB
@@ -648,6 +684,7 @@ Sony;Xperia 10 V;164g;6GB;8MP;48MP;Snapdragon 695;5000mAh;6.1 inches;USD 599;202
 Sony;Xperia 1 VI;190g;12GB;12MP;48MP;Snapdragon 8 Gen 3;5000mAh;6.5 inches;USD 1799;2024;256GB
 Sony;Xperia 5 VI;180g;8GB;12MP;48MP;Snapdragon 8 Gen 3;5000mAh;6.1 inches;USD 1199;2024;128GB
 Sony;Xperia 10 VI;167g;6GB;8MP;48MP;Snapdragon 7 Gen 1;5000mAh;6.1 inches;USD 699;2024;128GB
+Nokia;T21;466g;4GB;8MP;8MP;Unisoc T612;8200mAh;10.4 inches;USD 39622;2022
 Huawei;MatePad Pro 12.2;508g;12GB;16MP;13MP (f/1.8, AF);Kirin 9000S;10100mAh;12.2 inches;USD 999;2024;512GB
 Huawei;MatePad Pro 13.2;580g;12GB;16MP;13MP (f/1.8, AF);Kirin 9000S;10100mAh;13.2 inches;USD 877;2024;512GB
 Google;Pixel 3a;147g;4GB;8MP;12.2MP;Snapdragon 670;3000mAh;5.6 inches;USD 399;2019;64GB
