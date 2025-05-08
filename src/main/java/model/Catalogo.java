@@ -11,8 +11,6 @@ import java.util.stream.Collectors;
  * Clase fachada
  */
 public class Catalogo {
-    
-    private static final int numCaracteristicas = 4;
 
     
     private static final TreeSet<Movil> stock = new TreeSet<>();
@@ -20,7 +18,7 @@ public class Catalogo {
     public static void instanciarBd() {
         stock.clear();
         try {
-            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv"), StandardCharsets.UTF_8);
+            List<String> lineas = Files.readAllLines(Paths.get("src/main/resources/database/Mobiles_Dataset_2025.csv"), StandardCharsets.UTF_8);
             for (String linea : lineas.subList(1, lineas.size())) { // Omitir cabecera
                 String[] partes = linea.split(";");
 

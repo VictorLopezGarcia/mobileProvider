@@ -6,7 +6,7 @@ import java.util.regex.*;
 
 public class FormatearCSV {
     public static void main(String[] args) {
-        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv";
+        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025.csv";
         String rutaArchivoSalida = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN_FORMATTED.csv";
 
         try {
@@ -37,7 +37,7 @@ public class FormatearCSV {
 
 class CorregirSeparadores {
     public static void main(String[] args) {
-        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv";
+        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025.csv";
         String rutaArchivoSalida = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN_CORRECTED.csv";
 
         try {
@@ -87,7 +87,7 @@ class CorregirSeparadores {
 
 class CorregirCSV {
     public static void main(String[] args) {
-        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN.csv";
+        String rutaArchivo = "src/main/resources/database/Mobiles_Dataset_2025.csv";
         String rutaArchivoSalida = "src/main/resources/database/Mobiles_Dataset_2025_CLEAN_CORRECTED.csv";
 
         try {
