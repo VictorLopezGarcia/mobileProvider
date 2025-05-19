@@ -125,6 +125,30 @@
     -fx-text-fill: white;
 }
 
+.sidebar-button-filter {
+    -fx-background-color: transparent;
+    -fx-text-fill: #0a6076;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-graphic-text-gap: 10;
+    -fx-pref-height: 40px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-pref-width: infinity;
+    -fx-cursor: hand;
+}
+
+.sidebar-button-filter:hover {
+    -fx-background-color: rgba(52, 82, 94, 0.37);
+    -fx-text-fill: #0a6076;
+}
+
+.sidebar-button-filter:pressed {
+    -fx-background-color: #0a6076;
+    -fx-text-fill: white;
+}
+
+
 
 .open-sidebar-button {
     -fx-background-color: transparent;
@@ -148,9 +172,57 @@
     -fx-text-fill: white;
 }
 
+.sidebar-opciones {
+    -fx-background-color: white; /* Color de fondo de la tarjeta */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 10, 0, 0, 0);
+    -fx-background-radius: 10; /* Radio para los bordes redondeados */
+    -fx-border-color: #26788e; /* Color del contorno */
+    -fx-border-width: 1; /* Ancho del contorno */
+    -fx-border-radius: 10; /* Radio para los bordes del contorno (debe coincidir con el fondo) */
+    -fx-spacing: 20; /* Espaciado entre elementos */
+    -fx-padding: 10px; /* Asegúrate de tener un padding interno para que la sombra no tape el contenido */
+}
+
+
 
 .material-icons-sidebar {
     -fx-font-family: 'Material Symbols Rounded';
     -fx-font-size: 1.5em;
     -fx-fill: white; /* Usar -fx-fill para Text */
 }
+
+.material-icons-sidebar-filter {
+
+    -fx-font-family: 'Material Symbols Rounded';
+    -fx-font-size: 1.5em;
+    -fx-fill: #0a6076; /* Usar -fx-fill para Text */
+    -fx-animated:  true; /* Habilitar animación */
+}
+
+.combobox{
+    -fx-background-color: white; /* Color de fondo del contenedor */
+    -fx-padding: 10px; /* Espaciado interno */
+    -fx-spacing: 10px; /* Espaciado entre elementos */
+    -fx-alignment: center; /* Alineación centrada */
+    -fx-border-color: #26788e;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+
+}
+
+
+.label-thumb {
+    -fx-pref-width: 158;
+    -fx-background-color: #26788e;
+    -fx-text-fill: white;
+    -fx-text-alignment: CENTER;
+    -fx-padding: 4 8 10 8;
+    -fx-background-radius: 6 6 10 10;
+    -fx-effect: dropshadow(gaussian, #00000044, 4, 0.2, 0, 2);
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial"; /* Fuente de la tarjeta */
+}
+
+

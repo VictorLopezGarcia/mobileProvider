@@ -131,4 +131,15 @@ public class Catalogo {
                 .filter(m -> m.getModelo().equalsIgnoreCase(modelo))
                 .findFirst().orElse(null);
     }
+    public static Movil masBarato() {
+        return stock.stream()
+                .min(Comparator.comparingDouble(Movil::getPrecio))
+                .orElse(null);
+    }
+
+    public static Movil masCaro() {
+        return stock.stream()
+                .max(Comparator.comparingDouble(Movil::getPrecio))
+                .orElse(null);
+    }
 }

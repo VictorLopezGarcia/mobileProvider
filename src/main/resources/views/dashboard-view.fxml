@@ -1,52 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
 <?import org.controlsfx.control.GridView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.RangeSlider?>
+<?import javafx.scene.control.ComboBox?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
 <BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
     <left>
         <VBox fx:id="sidebar"
               spacing="10"
-              prefWidth="60"
+              prefWidth="50"
               styleClass="sidebar"
               BorderPane.alignment="CENTER_LEFT">
             <padding>
-                <Insets top="10" left="5" right="5" bottom="10"/>
+                <Insets top="10" left="5" bottom="10"/>
             </padding>
 
             <!-- Botón toggle sidebar -->
-            <Button text="" onAction="#toggleSidebar" styleClass="open-sidebar-button" alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
+            <Button onAction="#toggleSidebar" styleClass="open-sidebar-button" alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
                 <graphic>
                     <Text text="&#xe5d2;" styleClass="material-icons-sidebar"/>
                 </graphic>
             </Button>
 
-            <Button text="" fx:id="btnInicio" onAction="#mostrarTodos" styleClass="sidebar-button">
+            <Button fx:id="btnInicio" onAction="#mostrarTodos" styleClass="sidebar-button">
                 <graphic>
                     <Text text="&#xe88a;" styleClass="material-icons-sidebar"/>
                 </graphic>
-                <text>Inicio</text>
             </Button>
 
-            <Button text="" fx:id="btnSamsung" onAction="#filtrarPorMarcaSamsung" styleClass="sidebar-button">
+            <Button fx:id="btnOpciones" styleClass="sidebar-button" onAction="#mostrarMenuOpciones">
                 <graphic>
-                    <Text text="&#xe1bc;" styleClass="material-icons-sidebar"/>
+                    <Text text="&#xe152;" styleClass="material-icons-sidebar"/>
                 </graphic>
-                <text>Samsung</text>
             </Button>
 
-            <Button text="" fx:id="btnBarato" onAction="#filtrarPorPrecioMenor500" styleClass="sidebar-button">
-                <graphic>
-                    <Text text="&#xe227;" styleClass="material-icons-sidebar"/>
-                </graphic>
-                <text>Barato</text>
-            </Button>
+            <VBox fx:id="sidebarOpciones" visible="false" styleClass="sidebar-opciones" >
+
+                <Button fx:id="btnOrdenPrecio" styleClass="sidebar-button-filter">
+                    <graphic>
+                        <Text fx:id="btnFiltro" text="&#xe316;" styleClass="material-icons-sidebar-filter"/>
+                    </graphic>
+                    <text>Ordenar</text>
+                </Button>
+
+                <ComboBox fx:id="comboMarcas" promptText="Buscar por marca" styleClass="combobox"/>
+
+                    <RangeSlider fx:id="precioRangeSlider"
+                                 blockIncrement="10"
+                                 showTickLabels="false"
+                                 showTickMarks="false"
+                                 majorTickUnit="500"
+                                 minorTickCount="4"/>
+
+                    <HBox prefWidth="Infinity" alignment="CENTER">
+                        <Label fx:id="valueLabel" styleClass="label-thumb" HBox.hgrow="ALWAYS"/>
+                    </HBox>
+
+
+
+                <Button styleClass="sidebar-button-filter" onAction="#filtrarPorRangoPrecio">
+                    <graphic>
+                        <Text text="&#xe86c;" styleClass="material-icons-sidebar-filter"/>
+                    </graphic>
+                    <text>Aplicar</text>
+                </Button>
+
+            </VBox>
+
         </VBox>
     </left>
 
