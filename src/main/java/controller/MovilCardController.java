@@ -70,12 +70,6 @@ public class MovilCardController {
             }
             if (movil.getCaracteristicas().size() > 2) {
                 spec3Label.setText(movil.getCaracteristicas().get(2));
-                try {
-                    color.setFill(Color.web(movil.getCaracteristicas().get(2).substring(movil.getCaracteristicas().get(2).indexOf(":") + 1).trim().toLowerCase()));
-                } catch (IllegalArgumentException e) {
-                    color.setFill(BLACK);
-                }
-
             } else {
                 spec3Label.setText("");
             }

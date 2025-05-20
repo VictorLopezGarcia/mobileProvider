@@ -11,7 +11,6 @@
 <?import javafx.scene.control.ComboBox?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.HBox?>
 <BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17.0.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
@@ -55,16 +54,16 @@
 
                 <ComboBox fx:id="comboMarcas" promptText="Buscar por marca" styleClass="combobox"/>
 
-                    <RangeSlider fx:id="precioRangeSlider"
-                                 blockIncrement="10"
-                                 showTickLabels="false"
-                                 showTickMarks="false"
-                                 majorTickUnit="500"
-                                 minorTickCount="4"/>
+                <RangeSlider fx:id="precioRangeSlider"
+                             blockIncrement="10"
+                             showTickLabels="false"
+                             showTickMarks="false"
+                             majorTickUnit="500"
+                             minorTickCount="4"/>
 
-                    <HBox prefWidth="Infinity" alignment="CENTER">
-                        <Label fx:id="valueLabel" styleClass="label-thumb" HBox.hgrow="ALWAYS"/>
-                    </HBox>
+                <HBox prefWidth="Infinity" alignment="CENTER">
+                    <Label fx:id="valueLabel" styleClass="label-thumb" HBox.hgrow="ALWAYS"/>
+                </HBox>
 
 
 
@@ -81,7 +80,7 @@
     </left>
 
     <center>
-        <VBox fx:id="header" styleClass="catalogo-container" spacing="10" prefWidth="900" prefHeight="-Infinity" alignment="TOP_CENTER">
+        <VBox fx:id="header" styleClass="catalogo-container" spacing="10" prefHeight="-Infinity" alignment="TOP_CENTER">
             <TextField fx:id="campoBusqueda" promptText="Buscar" styleClass="text-field" maxWidth="Infinity" />
             <GridView fx:id="catalogoGrid"  VBox.vgrow="ALWAYS" />
         </VBox>
